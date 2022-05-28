@@ -4,6 +4,10 @@
     <template id="assets_backend" name="Odoo Tutorial" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
             <script type="text/javascript" src="/odoo_js_tutorial/static/src/js/popup.js"/>
+            <script type="text/javascript" src="/odoo_js_tutorial/static/src/js/custom_title.js"/>
+            <script type="text/javascript" src="/odoo_js_tutorial/static/src/js/field_widget.js"/>
+            <link href="/odoo_js_tutorial/static/src/scss/field_widget.scss" rel="stylesheet" type="text/scss" />
+
         </xpath>
    </template>
 

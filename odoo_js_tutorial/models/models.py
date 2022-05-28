@@ -6,5 +6,5 @@ class odooTutorial(models.Model):
     _description = 'Odoo Tutorial'
 
     name = fields.Char(string='Tutorial Name', required=True)
-    number_of_videos = fields.Integer(string='Number of Videos', required=True)
+    number_of_videos = fields.Integer(string='Number of Videos')
 
