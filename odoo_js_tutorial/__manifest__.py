@@ -28,8 +28,12 @@
         'views/assets.xml',
         'views/views.xml',
         'views/menus.xml',
-
     ],
+
+    "qweb": [
+     'static/src/xml/field_widget.xml',
+         ],
+
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
